@@ -45,7 +45,12 @@ else if(op === '/')
 a = numb3.toString();
     document.getElementById('numb').value= numb3 
 }
-function clearInput()
-{
-    document.getElementById('numb').value= "0"
-}
+
+    function clearInput()
+ {
+        document.getElementById('numb').value = "";
+        a = "";
+        b = "";
+        numb3 = "";
+        op = "";
+    }
